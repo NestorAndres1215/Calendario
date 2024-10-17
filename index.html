@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Dinámico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calendario-container">
+        <div class="header">
+            <h1 id="mes-año"></h1>
+            <div class="nav">
+                <button id="prev">Anterior</button>
+                <button id="next">Siguiente</button>
+            </div>
+        </div>
+        <table id="calendario">
+            <thead>
+                <tr>
+                    <th>Lun</th>
+                    <th>Mar</th>
+                    <th>Mié</th>
+                    <th>Jue</th>
+                    <th>Vie</th>
+                    <th>Sáb</th>
+                    <th>Dom</th>
+                </tr>
+            </thead>
+            <tbody id="dias"></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

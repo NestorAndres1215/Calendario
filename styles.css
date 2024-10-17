@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa;
+    margin: 0;
+}
+
+.calendario-container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#mes-año {
+    font-size: 24px;
+    color: #00796b;
+}
+
+.nav button {
+    background-color: #00796b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #b2dfdb;
+}
+
+th {
+    background-color: #004d40;
+    color: #ffffff;
+}
+
+td {
+    background-color: #e0f2f1;
+    color: #004d40;
+}
+
+td:not(:empty) {
+    background-color: #a7ffeb;
+    color: #004d40;
+}
